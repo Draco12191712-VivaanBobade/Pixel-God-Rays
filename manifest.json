@@ -1,0 +1,35 @@
+{
+  "format_version": 3,
+  "header": {
+    "name": "Pixel God Rays",
+    "description": "God rays for low-end phones. Works on normal Minecraft: no loader, no VV, no RTX.",
+    "uuid": "92f24b01-bee6-4e06-8481-59796755ee5d",
+    "version": "1.2.1",
+    "min_engine_version": "1.26.0"
+  },
+  "modules": [
+    {
+      "description": "God rays for low-end phones. Works on normal Minecraft: no loader, no VV, no RTX.",
+      "type": "resources",
+      "uuid": "18c7663e-f7ff-40f4-838e-3b86303595ad",
+      "version": "1.2.1"
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "shafts",
+      "name": "Sun rays + light shafts in the air (changes the player file)",
+      "memory_performance_tier": 0
+    },
+    {
+      "folder_name": "rays",
+      "name": "Sun rays only (default, safest)",
+      "memory_performance_tier": 1
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Draco12191712 (Vivaan Bobade)"
+    ]
+  }
+}

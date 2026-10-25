@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "particle_effects": {
+        "godrays_sun_shafts": "godrays:sun_shafts",
+        "godrays_canopy_shafts": "godrays:canopy_shafts"
+      },
+      "animations": {
+        "godrays_sun_shafts_controller": "controller.animation.godrays.sun_shafts"
+      },
+      "scripts": {
+        "animate": [
+          "root",
+          "godrays_sun_shafts_controller"
+        ]
+      }
+    }
+  }
+}
